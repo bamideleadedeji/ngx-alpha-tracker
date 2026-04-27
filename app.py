@@ -80,3 +80,18 @@ st.info("""
 experiencing a natural correction after record dividends, the Industrial and Agriculture sectors 
 continue to drive real-economy growth.
 """)
+
+st.subheader(" Researcher's Insight: The Debt-Growth Nexus")
+st.markdown(f"""
+### Market Analysis (April 27, 2026)
+Today’s data provides a textbook case of **Sector Rotation** within the Nigerian economy.
+
+1. **The Industrial Surge (WAPCO & DANGCEM):** With **WAPCO (+7.24%)** and **DANGCEM (+2.13%)** leading, we are seeing the "Growth" side of the nexus. In 2026, as Nigeria pushes toward a **₦150 Trillion market valuation**, capital is moving into tangible industrial assets as a hedge against currency volatility.
+
+2. **The Banking Correction (UBA & FBNH):** Major banks hitting the **-10% lower circuit** is a structural reset. Following the 2026 recapitalization exercise, investors are profit-taking after record-breaking dividend rallies. This volatility represents the "Debt" side of the economy recalibrating its risk profile.
+
+3. **Strategic Resilience:** **PRESCO (+6.06%)** proves that the agricultural sector remains a defensive stronghold for Nigerian portfolios. While financial stocks fluctuate, production-based equities are delivering the highest real returns.
+
+**Conclusion:** The Nigerian Exchange (NGX) is no longer driven solely by banking speculation but by a broader industrial and agricultural expansion—a key indicator of a maturing frontier market.
+""")
+
