@@ -1,5 +1,5 @@
 # NGX Alpha Tracker: Elite 20 Portfolio Analysis## Overview
-This project is a real-time data engine designed to track and analyze the "Heavyweight" companies on the **Nigerian Exchange (NGX)**. Developed during the historic **April 2026 market surge**—where the All-Share Index (ASI) crossed the **225,000-point milestone**—this tool provides a deep dive into sector rotation and capital allocation in the Nigerian economy.
+This project is a real-time data engine designed to track and analyze the "Heavyweight" companies on the **Nigerian Exchange (NGX)**. Developed during the historic **April 2026 market surge**where the All-Share Index (ASI) crossed the **225,000-point milestone**this tool provides a deep dive into sector rotation and capital allocation in the Nigerian economy.
 
 As an independent researcher, I built this to bridge the gap between raw market data and actionable economic insights, specifically focusing on the **Debt-Growth Nexus** in Nigeria.
 
