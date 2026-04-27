@@ -1,30 +1,38 @@
-# NGX Alpha Tracker: Elite 20 Portfolio Analysis## Overview
-This project is a real-time data engine designed to track and analyze the "Heavyweight" companies on the **Nigerian Exchange (NGX)**. Developed during the historic **April 2026 market surge**where the All-Share Index (ASI) crossed the **225,000-point milestone**this tool provides a deep dive into sector rotation and capital allocation in the Nigerian economy.
+# Nigeria Wealth Intelligence Suite 
 
-As an independent researcher, I built this to bridge the gap between raw market data and actionable economic insights, specifically focusing on the **Debt-Growth Nexus** in Nigeria.
+## Overview
+The **Nigeria Wealth Intelligence Suite** is a unified data analytics platform designed to monitor and compare performance across two critical asset classes in the Nigerian financial landscape: **Direct Equities (NGX Elite 20)** and **Managed Mutual Funds**.
 
-##  Key Features
-- **Resilient Web Scraper:** Custom BeautifulSoup4 engine designed to handle live data-drift and structural shifts on financial portals.
-- **Elite 20 Filtering:** Automatically isolates the "Power Players" (Dangote Cement, MTN, Aradel, etc.) from market noise.
-- **Sector Analysis:** Categorizes stocks into Banking, Industrial, Energy, and Telecom to visualize capital movement.
-- **Live Correction Handling:** Successfully tracked the "Banking Correction" of April 27, 2026, where major banks hit the -10% lower circuit following dividend peaks.
+Developed during the historic **April 2026 market surge**, this suite provides real-time insights into capital rotation, risk assessment, and yield gaps, specifically supporting research into the **Debt-Growth Nexus** in frontier markets.
+
+##  Integrated Features
+### 1. NGX Alpha Tracker (Equities)
+- **Elite 20 Focus:** Real-time tracking of the "Heavyweights" (Aradel, Dangote Cement, MTN, etc.) that drive the All-Share Index.
+- **Volatility Monitoring:** Automated tracking of "Lower Circuit" events (e.g., the -10% Banking correction of April 27, 2026).
+- **Sector Analysis:** Categorization of performance across Energy, Industrial, Banking, and Agricultural sectors.
+
+### 2. Mutual Fund ROI Tracker (Managed Funds)
+- **Comparative Yields:** Tracking ROI across Money Market, Ethical/Shari’ah, and Equity-Based funds.
+- **Risk-Reward Mapping:** Visualizing the relationship between fund categories and annual returns.
+- **Benchmark Analysis:** Comparing fund performance against the soaring NGX All-Share Index (225k+ points).
 
 ##  The Tech Stack
-- **Language:** Python 3.11+
-- **Libraries:** Pandas (Data Manipulation), BeautifulSoup4 (Web Scraping), Plotly (Interactive Visualization), Streamlit (Web Dashboard).
-- **Environment:** Jupyter Notebooks for R&D; VS Code for deployment.
+- **Engine:** Python 3.11+
+- **Data Handling:** Pandas, NumPy
+- **Scraping:** BeautifulSoup4 (BS4), Requests
+- **Visualization:** Plotly Express (Interactive Charts)
+- **Deployment:** Streamlit Cloud
 
-##  Market Context (April 27, 2026)
-During the latest run of this tool, the following market dynamics were observed:
-* **Industrial Leadership:** WAPCO and Dangote Cement led growth with gains of +7.24% and +2.13% respectively.
-* **Banking Volatility:** Major pullbacks in UBA and FBNH (-10.00%) provided a case study in profit-taking efficiency.
-* **Agri-Hedge:** Presco PLC emerged as a top gainer (+6.06%), signaling investor trust in the agricultural sector.
+##  Market Context: April 27, 2026
+This project captured a pivotal moment in the Nigerian economy:
+* **The "Great Rotation":** Capital moved out of the Banking sector (UBA/FBNH -10%) following the recapitalization cycle and into Industrial leaders (**WAPCO +7.24%**).
+* **Managed Stability:** While direct equities showed high volatility, Money Market Mutual Funds maintained a stable **14.5% ROI**, providing a "safe haven" for capital.
 
-##  Project Structure
+##  Repository Structure
 ```text
-ngx-alpha-tracker/
-├── data/               # Verified CSV snapshots of the NGX
-├── notebooks/          # R&D and data cleaning logic
-├── src/                # Core scraping and validation scripts
-├── app.py              # Streamlit dashboard entry point
-└── requirements.txt    # Project dependencies
+ngx-wealth-intelligence/
+├── app.py              # The Unified Streamlit Application
+├── requirements.txt    # Standard Library & External Dependencies
+├── data/               # Verified Market Snapshots (CSV)
+├── notebooks/          # R&D for Scrapers & ROI Logic
+└── README.md           # Project Documentation
