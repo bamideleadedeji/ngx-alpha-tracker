@@ -6,7 +6,7 @@ import plotly.express as px
 st.set_page_config(page_title="NGX Alpha Tracker", layout="wide")
 
 # 2. Header & Research Context
-st.title("📈 NGX Alpha Tracker: Elite 20")
+st.title(" NGX Alpha Tracker: Elite 20")
 st.markdown(f"""
 **Market Date:** April 27, 2026 | **ASI:** 225,724.33 | **Status:** 45.05% YTD Rally
 *Developed by Bamidele Adedeji (Independent Researcher)*
